@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxChessBoardModule } from 'ngx-chess-board';
 
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -13,6 +15,7 @@ import { NgxChessBoardModule } from 'ngx-chess-board';
     AppRoutingModule,
     BrowserAnimationsModule,
     NgxChessBoardModule.forRoot(),
+    MatProgressSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
