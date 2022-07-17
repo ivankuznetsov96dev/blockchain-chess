@@ -1,4 +1,4 @@
-<ngx-chess-board #board></ngx-chess-board>
+<ngx-chess-board #board (moveChange)="moveChange()"></ngx-chess-board>
 
 <div class="btn-wrapper">
   <button (click)="reset()">Reset</button>
